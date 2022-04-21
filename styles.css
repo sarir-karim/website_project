@@ -1,0 +1,618 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserret", sans-serif;
+}
+
+body {
+  background-color: #111322;
+}
+
+/* Main Section Starts Here */
+
+.main {
+  height: auto;
+  padding: 50px;
+}
+.main img {
+  background-size: cover;
+  width: 100%;
+  border-radius: 20px;
+  height: 83.5vh;
+}
+
+/* Main Section Ends Here */
+
+/* Contact Section Starts Here */
+
+.contact_section {
+  padding: 30px 35px;
+  align-items: start;
+}
+
+.contact_section .cont1 {
+  margin-bottom: 30px;
+  padding: 30px 20px;
+}
+
+.contact_section i {
+  font-size: 35px;
+}
+
+.contact_section .cont1 h5 {
+  padding-bottom: 15px;
+}
+.contact_section .cont1 p {
+  width: 54%;
+  padding: 10px 0;
+  font-size: 30px;
+}
+/* cont 2 */
+
+.contact_section .cont2 {
+  margin-bottom: 30px;
+  padding: 30px 20px;
+}
+
+.contact_section .cont2 h5 {
+  padding-bottom: 10px;
+}
+
+.contact_section .cont2 p {
+  font-size: 30px;
+  padding: 10px 0;
+  width: 40%;
+}
+
+.contact_section .cont3 {
+  margin-bottom: 30px;
+  padding: 30px 20px;
+}
+
+.contact_section .cont3 p {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.contact_section .contact_items .address {
+  display: flex;
+  color: #3ec1c9;
+  gap: 15px;
+}
+.contact_section .contact_items .telephone {
+  display: flex;
+  color: #3ec1c9;
+  gap: 5px;
+}
+.contact_section .contact_items h5 {
+  color: #3ec1c9;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.contact_section .contact_items p {
+  color: #fff;
+  line-height: 30px;
+}
+
+/* Contact Section Ends Here */
+
+/* Hours Section Starts Here */
+
+.hours_main {
+  padding: 10px 35px;
+}
+
+.hours_main h5,
+i {
+  color: #3ec1c9;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.hours_section {
+  color: white;
+}
+
+.hours_section .hours {
+  text-transform: uppercase;
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hours_section .hours h5 {
+  font-size: 35px;
+  margin-left: 5px;
+}
+
+.hours_section .hours_table {
+  border-radius: 10px;
+  background-color: #3ec1c9;
+  width: 95%;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.hours_section .hours_table ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hours_section .hours_table ul {
+  border-bottom: 1px solid white;
+}
+
+.hours_section .hours_table .lastul {
+  border-bottom: none;
+}
+.hours_section .hours_table ul li {
+  list-style: none;
+  font-size: 30px;
+  color: #111322;
+  line-height: 80px;
+}
+
+.hours_section .hours_table ul li:first-child {
+  font-weight: bold;
+}
+
+/* Hours Section Ends Here */
+
+/* Transport Section Starts Here */
+
+.transport_details {
+  color: white;
+  padding: 30px 40px;
+}
+
+.transport_details h5 {
+  font-size: 35px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.transport_details .d-p {
+  margin-bottom: 20px;
+}
+
+.transport_details p {
+  line-height: 35px;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.transport_items {
+  padding: 35px 35px;
+}
+
+.transport_items .transport {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.transport_items .transport h5 {
+  font-size: 35px;
+}
+
+.transport_items .transport_sec {
+  display: flex;
+  gap: 20%;
+  padding: 20px 50px;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.transport_sec .trans1 {
+  display: flex;
+  gap: 30px;
+  font-size: 35px;
+}
+
+.trans1 .bus {
+  padding: 10px;
+}
+
+.trans1 .nums {
+  background-color: #36506b;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Transport Section Ends Here */
+
+/* Map Section Starts Here */
+
+.map_section {
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 100%; */
+}
+.map_section h5 {
+  color: #3ec1c9;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 0px 10px;
+  margin-bottom: 30px;
+}
+.map_section img {
+  width: 100%;
+  margin: 10px auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Map Section Ends Here */
+
+/* Footer Section Starts Here */
+
+.footer_section {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer_section h5 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.footer_section p {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+/* Footer Section Ends Here */
+
+/* media querties */
+
+@media (max-width: 914px) {
+  /* Slider Section */
+  .main {
+    padding: 50px;
+  }
+
+  /* Contact Section */
+  .contact_section .cont1 p {
+    width: 100%;
+  }
+
+  .contact_section .cont2 p {
+    width: 100%;
+  }
+
+  /* Hours Section */
+  .hours_main {
+    padding: 10px 25px;
+  }
+
+  .hours_section .hours_table ul li {
+    list-style: none;
+    font-size: 25px;
+    color: #111322;
+    line-height: 80px;
+  }
+
+  /* Transport Section */
+  .transport_details h5 {
+    line-height: 50px;
+  }
+
+  .transport_details p {
+    font-size: 25px;
+  }
+
+  /* Map Section */
+  .map_section h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 784px) {
+  /* Slider Section */
+  .main {
+    padding: 50px;
+  }
+
+  /*  Contact Section */
+  .contact_section {
+    padding: 25px 30px;
+  }
+
+  .contact_section .cont1 h5 {
+    font-size: 25px;
+  }
+
+  .contact_section .cont1 p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  .contact_section .cont2 h5 {
+    font-size: 25px;
+  }
+  .contact_section .cont2 i {
+    font-size: 25px;
+  }
+
+  .contact_section .cont2 p {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  .contact_section .cont3 h5 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .contact_section .cont3 i {
+    font-size: 25px;
+  }
+
+  .contact_section .cont3 p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .contact_section .cont2,
+  .cont3 {
+    padding: 10px 20px;
+  }
+
+  /* Hours Section */
+  .hours_main {
+    padding: 10px 20px;
+  }
+
+  .hours_section .hours_table ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #111322;
+    line-height: 50px;
+  }
+
+  .hours_section .hours_table {
+    margin: auto;
+  }
+
+  .hours_section .hours h5 {
+    font-size: 25px;
+  }
+
+  .hours_main h5,
+  i {
+    font-size: 25px;
+  }
+
+  /* Transport Section */
+  .transport_items {
+    padding: 84px 20px 20px 30px;
+  }
+  .transport_items .transport i,
+  .transport_items .transport h5 {
+    font-size: 25px;
+  }
+
+  .transport_items .transport_sec {
+    gap: 10%;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .transport_details {
+    padding: 20px;
+  }
+
+  .transport_details h5 {
+    font-size: 25px;
+  }
+
+  .transport_sec .trans1 {
+    font-size: 25px;
+  }
+
+  .transport_details .d-p,
+  .transport_details p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  /* Map Section */
+  .map_section {
+    padding: 30px 40px;
+  }
+
+  .map_section h5 {
+    font-size: 25px;
+    padding: 0;
+    line-height: 30px;
+  }
+
+  /* Footer Section  */
+  .footer_section h5 {
+    font-size: 25px;
+  }
+  .footer_section p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Main Section */
+  .main {
+    padding: 50px;
+  }
+
+  /* Contact Section */
+  .contact_section {
+    padding: 20px 10px;
+  }
+
+  .contact_section .cont1 h5 {
+    font-size: 18px;
+  }
+
+  .contact_section .cont1 p {
+    font-size: 14px;
+    padding: 2px 0;
+  }
+
+  .contact_section .cont1,
+  .contact_section .cont2,
+  .contact_section .cont3 {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact_section .cont2 h5 {
+    font-size: 18px;
+  }
+  .contact_section .cont2 i {
+    font-size: 18px;
+  }
+
+  .contact_section .cont2 p {
+    font-size: 14px;
+    padding: 2px 0;
+  }
+
+  .contact_section .cont3 h5 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .contact_section .cont3 i {
+    font-size: 18px;
+  }
+
+  .contact_section .cont3 p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  /* Hours Section */
+  .hours_main {
+    padding: 10px 10px;
+  }
+
+  .hours_section .hours {
+    padding: 15px 10px;
+  }
+
+  .hours_section .hours_table ul {
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .hours_section .hours_table ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #111322;
+    line-height: 40px;
+  }
+
+  .hours_section .hours_table {
+    margin: auto;
+  }
+
+  .hours_section .hours h5 {
+    font-size: 18px;
+  }
+
+  .hours_main h5,
+  i {
+    font-size: 18px;
+  }
+
+  /* Transport Section */
+  .transport_items {
+    padding: 70px 20px 20px 10px;
+  }
+
+  .transport_items .transport i,
+  .transport_items .transport h5 {
+    font-size: 18px;
+  }
+
+  .transport_items .transport_sec {
+    gap: 10%;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+
+  .transport_details {
+    padding: 10px;
+  }
+
+  .transport_details h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .transport_sec .trans1 {
+    font-size: 18px;
+  }
+
+  .transport_sec .trans2 h4 {
+    font-size: 14px;
+  }
+
+  .transport_details .d-p,
+  .transport_details p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Map Section */
+
+  .map_section {
+    padding: 30px 20px;
+  }
+
+  .map_section h5 {
+    font-size: 18px;
+    padding: 0;
+    line-height: 30px;
+  }
+
+  /* Footer Section */
+
+  .footer_section h5 {
+    font-size: 18px;
+  }
+
+  .footer_section p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 424px) {
+  /* Main Section */
+  .main {
+    padding: 50px;
+  }
+
+  /* Hours Section */
+  .hours_section .hours_table ul {
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .hours_section .hours_table ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #111322;
+    line-height: 40px;
+  }
+}
